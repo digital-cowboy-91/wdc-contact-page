@@ -58,7 +58,7 @@ export default function Footer() {
       id="footer"
       className="bg-primary text-background z-10 text-[13px] border-t-[9px] border-subtle"
     >
-      <div className="flex justify-end pt-[40px] px-[25px]">
+      <div className="md:hidden flex justify-end pt-[40px] px-[25px]">
         <SearchBar />
       </div>
       <div className="max-w-[1200px] m-auto p-[60px] flex justify-between flex-wrap gap-[20px]">

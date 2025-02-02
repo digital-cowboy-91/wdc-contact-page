@@ -37,7 +37,7 @@ export default function Navbar() {
       <nav className="h-full flex items-center">
         {links.map(({ name, link }) => {
           return (
-            <Link href={link} className="px-[13px]">
+            <Link key={name} href={link} className="px-[13px]">
               {name}
             </Link>
           );
