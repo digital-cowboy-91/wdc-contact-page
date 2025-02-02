@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SearchBar from "./SearchBar";
 
 export default function Navbar() {
   const links = [
@@ -42,9 +43,7 @@ export default function Navbar() {
           );
         })}
       </nav>
-      <div className="h-full w-[215px] bg-[grey] flex items-center justify-center px-[13px] ms-[40px]">
-        SEARCHBAR PLACEHOLDER
-      </div>
+      <SearchBar />
     </div>
   );
 }

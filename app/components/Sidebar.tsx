@@ -1,18 +1,7 @@
-import { Icon } from "@iconify-icon/react";
 import Link from "next/link";
+import Socials from "./Socials";
 
 export default function Sidebar() {
-  const socials = [
-    {
-      icon: "entypo-social:linkedin-with-circle",
-      link: "https://www.linkedin.com/company/wdc-creative",
-    },
-    {
-      icon: "mage:instagram-circle",
-      link: "https://www.instagram.com/wdc.creative/?hl=en",
-    },
-  ];
-
   return (
     <aside
       id="sidebar"
@@ -24,15 +13,7 @@ export default function Sidebar() {
           className="w-[20px]"
         />
       </Link>
-      <div className="flex flex-col gap-[10px] text-primary">
-        {socials.map(({ icon, link }) => {
-          return (
-            <Link key={icon} href={link} className="h-[30px] aspect-square">
-              <Icon icon={icon} width="100%" height="100%" />
-            </Link>
-          );
-        })}
-      </div>
+      <Socials className="text-primary" direction="vertical" />
     </aside>
   );
 }
