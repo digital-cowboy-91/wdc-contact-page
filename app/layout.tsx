@@ -37,7 +37,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
         <Navbar />
-        <main className="grow">{children}</main>
+        <main className="grow ps-[var(--sidebar-size)]">{children}</main>
         <Footer />
         <Sidebar />
       </body>

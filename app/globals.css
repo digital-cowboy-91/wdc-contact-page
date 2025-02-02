@@ -22,3 +22,7 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+  font-family: Larken, Impact, sans-serif;
+}

@@ -1,6 +1,9 @@
+import PageHeader from "./components/PageHeader";
+
 export default function Home() {
   return (
-    <div>
+    <div className="">
+      <PageHeader />
       {Array(100)
         .fill(0)
         .map((_val, index) => {
