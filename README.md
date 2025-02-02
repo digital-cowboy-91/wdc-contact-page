@@ -45,7 +45,7 @@ The entire two-hour coding session was recorded to demonstrate that I followed t
 - problem solving and critical thinking
 - ability to follow rules and design
 
-Download the video [here]()
+Sped up version of the video could be found [here](https://assets.3int.uk/wdc/wdc-fast.mp4). Full version on request only.
 
 ### Hosting
 
