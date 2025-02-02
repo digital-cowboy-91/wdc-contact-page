@@ -13,7 +13,7 @@ export default function Sidebar() {
           className="w-[20px]"
         />
       </Link>
-      <Socials className="text-primary" direction="vertical" />
+      <Socials direction="vertical" />
     </aside>
   );
 }
